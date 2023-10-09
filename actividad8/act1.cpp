@@ -119,7 +119,7 @@ void vectm(int vect[], int len)
     system("cls");
     for(i=0; i < len; i++)
     {
-        num = validanum(10, 70, "Dame un numero: ", "INVALIDO Tiene que estar entre 10-70");
+        num = validanum(30, 70, "Dame un numero: ", "INVALIDO Tiene que estar entre 30-70");
         vect[i] = num;
     }
     printf("Vector llenado \n");
