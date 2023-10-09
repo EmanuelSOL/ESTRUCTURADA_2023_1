@@ -232,7 +232,6 @@ void fibonaccicw(void) //Este es el procedimiento para fibonacci con while
 void fibonaccicf(void) //Este es el procedimiento para fibonacci con for
 {
 
-
     int i;
 
     system("CLS");

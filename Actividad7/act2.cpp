@@ -11,9 +11,11 @@ int menup();
 void menu();
 void fmayus(void);
 void fminus(void);
+void fcapital(void);
 void fcaract(void);
 void fcaractinv(void);
 void fsinespacios(void);
+void falfabetico(void);
 
 
 int main()
@@ -29,9 +31,11 @@ int menup()
     printf("MENU \n");
     printf("1.- Mayusculas \n");
     printf("2.- Minusculas \n");
-    printf("3.- Caracteres de la cadena  \n");
-    printf("4.- Caracteres a la inversa \n");
-    printf("5.- Sin espacios \n");
+    printf("3.- Capital \n");
+    printf("4.- Caracteres de la cadena  \n");
+    printf("5.- Caracteres a la inversa \n");
+    printf("6.- Sin espacios \n");
+    printf("7.- Solo alfabetico \n");
     printf("Presione 0 para salir \n");
     printf("Seleccione la opcion: ");
     scanf("%d",&num);
@@ -61,6 +65,10 @@ void menu()
         case 5:
             fsinespacios();
             break;
+        case 6:
+            falfabetico();
+            break;
+
         }
 
     }
@@ -164,4 +172,10 @@ void fsinespacios(void)
         }
     }
     system("PAUSE");
+}
+
+void falfabetico(void)
+{
+    
+
 }

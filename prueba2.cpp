@@ -30,7 +30,6 @@ int main()
 int menu1()
 {
     int num;
-    system("CLS");
     printf("MENU \n");
     printf("SALIDA 1 \n");
     printf("SALIDA 2 \n");
